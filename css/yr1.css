@@ -1,0 +1,8 @@
+body{
+    text-align: center;
+    background: linear-gradient(blue, red, purple,green,yellow,pink);
+    font-size: 30px;
+}
+.list{
+    width: 10%;
+}

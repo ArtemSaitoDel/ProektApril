@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/yr1.css">
+    <title>Document</title>
+</head>
+    <body>
+        <form action="input.php" method="post">
+            <h2>Обработка форм на PHP</h2>
+            <p><b>Введите имя</b></p>
+            <input type="text" name="firstname" class="field">
+            <p><b>Онлайн или оффлайн курсы?</b></p> <br>
+            <input type="radio" name="eduform" value="Очно">хочу призодить к вам <br>
+            <input type="radio" name="eduform" value="Заочно">хочу сидеть дома <br>
+            <p><b>Выбирете курсы:</b> <br>
+            <select name="courses[]" id="" class="list" size="10" multiple="multiple" width="500">
+                <option value="Html">Html</option>
+                <option value="CSS">CSS</option>
+                <option value="Java">Java</option>
+                <option value="php">php</option>
+            </select></p>
+            <input type="submit" class="ok" value="Вперёд">
+        </form>
+    </body>
+</html>
